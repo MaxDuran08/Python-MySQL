@@ -1,0 +1,17 @@
+comandos para ejecutar el proyecto
+
+## creando el entorno del proyecto (taller3 sera el nombre del entorno)
+python3 -m venv taller3
+
+## Ingresando al entorno de Python
+source myenv/bin/activate
+
+# Instalando librerias necesarias para ejecutar el proyecto
+pip install mysql-connector-python
+pip install flask
+pip install pandas
+pip install flask-cors
+
+
+# Para ejecutar el backend
+python3 ./main.py
